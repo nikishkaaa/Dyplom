@@ -5,4 +5,4 @@ scikit-learn
 streamlit-option-menu
 seaborn
 streamlit-extras
-create-engine
+SQLAlchemy

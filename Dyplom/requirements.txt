@@ -6,3 +6,6 @@ streamlit-option-menu
 seaborn
 streamlit-extras
 SQLAlchemy
+psycopg2-binary
+plotly
+shap

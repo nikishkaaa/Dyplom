@@ -2,3 +2,4 @@ streamlit
 joblib==1.4.0
 pandas
 scikit-learn
+streamlit-option-menu

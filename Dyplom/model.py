@@ -19,13 +19,13 @@ from sklearn.inspection import PartialDependenceDisplay
 
 @st.cache_resource
 def load_model():
-    return joblib.load('model/best_xgb.joblib')
+    return joblib.load('best_xgb.joblib')
 model = load_model()
 
 
 @st.cache_resource
 def load_preprocessor():
-    return load('model/preprocessor.joblib')
+    return load('preprocessor.joblib')
 
 preprocessor = load_preprocessor()
 
